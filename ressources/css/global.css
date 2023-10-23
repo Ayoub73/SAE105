@@ -1,0 +1,115 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-delay: -1ms !important;
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    background-attachment: initial !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+  }
+}
+
+.navigation-principale a {
+  text-decoration: none;
+  color: black;
+  padding-top: 2.25rem;
+  display: block;
+}
+
+.navigation-principale a{
+  font-weight: bold;
+}
+
+.navigation-principale a.index:hover,
+.navigation-principale a.index:focus {
+  color: #ef509f;
+}
+
+.navigation-principale .active a.index {
+  color: #ef509f;
+}
+
+.navigation-principale a.apropos:hover,
+.navigation-principale a.apropos:focus {
+  color: #03886d;
+}
+
+.navigation-principale .active a.apropos {
+  color: #03886d;
+}
+
+.navigation-principale a.contact:hover,
+.navigation-principale a.contact:focus {
+  color: #ee8f00;
+}
+
+.navigation-principale .active a.contact {
+  color: #ee8f00;
+}
+
+.navigation-principale a.medias:hover,
+.navigation-principale a.medias:focus {
+  color: #eb0706;
+}
+
+.navigation-principale .active a.medias {
+  color: #eb0706;
+}
+
+.navigation-principale a.langages-informatique:hover,
+.navigation-principale a.langages-informatique:focus {
+  color: #a813a8;
+}
+
+.navigation-principale .active a.langages-informatique {
+  color: #a813a8;
+}
+
+.pied-de-page-principal .liste-liens {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 8px;
+}
+
+.pied-de-page-principal .remonter-lien {
+  color: #707070;
+  text-decoration: none;
+}
+
+.pied-de-page-principal .remonter-lien:hover {
+  color: #525050;
+}
+
+.pied-de-page-principal a {
+  color: #0066ff;
+}
+
+.pied-de-page-principal a:hover,
+.pied-de-page-principal a:focus {
+  text-decoration: none;
+}
+
+.pied-de-page-principal .logo {
+  margin-top: 46px;
+}
+
+.pied-de-page-principal .txt-credits {
+  margin-top: 20px;
+}
+
+.paragraphe {
+  margin-bottom: 1.25rem;
+  font-size: 1.05rem;
+}
+
+.paragraphe:last-of-type {
+  margin-bottom: 3rem;
+}
