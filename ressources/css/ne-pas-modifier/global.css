@@ -60,19 +60,6 @@ button {
   border: none;
 }
 
-.navigation-principale .lien-admin {
-  background-color: black;
-  padding: 0 0.5rem 0.5rem;
-}
-
-.navigation-principale .lien-admin a {
-  color: aliceblue;
-}
-
-.pied-de-page-principal .lien-admin {
-  color: black;
-}
-
 .texte-gras {
   font-weight: bold;
 }
